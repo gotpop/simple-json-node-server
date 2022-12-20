@@ -5,8 +5,6 @@ import { shopItems } from './data/shop.js'
 const app = express();
 const port = process.env.PORT || 9000;
 
-app.use(cors())
-
 app.get("/", cors(), (request, response) => {
     response.json(shopItems);
 });
