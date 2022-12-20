@@ -7,7 +7,7 @@ const port = process.env.PORT || 9000;
 
 app.use(cors())
 
-app.get("/", (request, response) => {
+app.get("/", cors(), (request, response) => {
     response.json(shopItems);
 });
 
