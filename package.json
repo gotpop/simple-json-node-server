@@ -4,6 +4,7 @@
   "main": "index.js",
   "author": "Aiden Bai",
   "license": "MIT",
+  "type": "module",
   "scripts": {
     "dev": "nodemon index.js",
     "start": "node index.js"
