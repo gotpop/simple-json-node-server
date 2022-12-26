@@ -12,5 +12,5 @@ app.get("/", (request, response) => {
 });
 
 app.listen(port, () => {
-    console.log(`Example app listening at http://localhost:${port}`);
+    console.log(`JSON server listening at http://localhost:${port}`);
 });
